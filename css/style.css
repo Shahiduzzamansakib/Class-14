@@ -1,0 +1,163 @@
+/* Common Css Start */
+:root {
+  --primary-color:#0f2f44;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+body{
+
+  font-family: "Ubuntu", sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1170px;
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.align-center {
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.w-50 {
+  width: 50%;
+}
+.w-33 {
+  width: calc(100% / 3);
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.text-justify {
+  text-align: justify;
+}
+/* Common Css End */
+
+/* =========== Top Bar Section Css Start =========== */
+.top_bar {
+  background-color: var(--primary-color);
+  padding: 5px 0;
+}
+.top_bar p{
+
+  color: #fff;
+  font-size: 16px;
+  line-height: 25px;
+}
+/* =========== Top Bar Section Css End =========== */
+
+
+/* =========== Nav Section Css Start =========== */
+
+nav{
+
+  background: #fff;
+}
+nav li a {
+    
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 800;
+  color: #222222;
+  padding: 20px 15px;
+  display: block;
+  transition: 0.4s;
+}
+nav li a:hover {
+
+  color: #ffc712;
+  background: #fff9e6;
+}
+.icons li a i{
+
+  color: #999999;
+  border: 2px solid #999999;
+  border-radius: 50%;
+  padding: 3px;
+  transition: .4s;
+  
+}
+.icons li a:hover i{
+
+  color: #ffc712;
+  border: 2px solid #ffc712;
+}
+/* =========== Nav Section Css End =========== */
+/* =========== Banner Section Css Start =========== */
+
+.banner_info{
+
+  padding: 100px 0;
+  
+  
+}
+.banner_info h2 p{
+
+  font-size: 50px;
+  line-height: 40px;
+  color: #0f2f44;
+  font-weight: 200;
+}
+.banner_info h2{
+
+  font-size: 80px;
+  line-height: 70px;
+  color: #0f2f44;
+}
+
+.banner_info h4{
+
+  font-size: 32px;
+  line-height: 24px;
+  padding: 10px 0;
+  letter-spacing: 5px;
+  font-weight: normal;
+  color: #8484bf;
+}
+.banner_info p{
+
+  font-size: 14px;
+  line-height: 24px;
+  width: 44%;
+  color: #444444;
+ 
+}
+.banner_info a{
+
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+  background: #8484bf;
+  margin-top: 15px;
+  padding: 20px 30px;
+  display: inline-block;
+  border-radius: 10px;
+}
+.banner_info a > i{
+
+  color: #8484bf;
+  font-size: 40px;
+  margin-left: 10px;
+  border: none;
+}
+
+/* =========== Banner Section Css End =========== */
